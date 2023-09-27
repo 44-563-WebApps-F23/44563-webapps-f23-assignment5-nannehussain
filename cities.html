@@ -54,9 +54,9 @@
       <img src="kilasagirinew.jpg" alt="City 5" class="img-thumbnail" width="300" height="300">
       <img src="noidanew.jpg" alt="City 6" class="img-thumbnail" width="300" height="300"> 
     </div>
-    <!-- table-->
+<!-- table-->
+<caption>Table of Letters, Cities, Rivers, and Trees</caption>
 <table class="table">
-  <caption>Table of Letters, Cities, Rivers, and Trees</caption>
 
   <thead>
     <tr class="table-primary">
@@ -79,9 +79,9 @@
       <td>Hudson River</td>
       <td>Hackberry tress</td>
     </tr>
-    <tr class="table-danger">
+    <tr class="table-success">
       <th scope="row">A</th>
-      <td>Amsterdam</td>
+      <td>Agra</td>
       <td>Alabama River</td>
       <td>Apple tree</td>
     </tr>
@@ -91,13 +91,13 @@
       <td>Indus River</td>
       <td>Isodan tree</td>
     </tr>
-    <tr class="table-success">
+    <tr class="table-warning">
       <th scope="row">K</th>
       <td>Kilasa giri</td>
       <td>Kaveri River</td>
       <td>Katsura tree</td>
     </tr>
-    <tr class="table-danger">
+    <tr class="table-light">
       <th scope="row">N</th>
       <td>Noida</td>
       <td>Nail River</td>
@@ -106,8 +106,117 @@
 
    </tbody>
 </table>
+<!--BUTTONS-->
+<label>BUTTONS</label>
+  <br>
+  <button class="btn">S</button>
+  <button class="btn">H</button>
+  <button class="btn">A</button>
+  <button class="btn">I</button>
+  <button class="btn">K</button>
+  <button class="btn">N</button>
+  <br>
+  <label>BUTTON GROUPS</label>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="3 letters">
+      <button type="button" class="btn btn-success">S</button>
+      <button type="button" class="btn btn-success">H</button>
+      <button type="button" class="btn btn-success">A</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="2 letters">
+      <button type="button" class="btn btn-warning">I</button>
+      <button type="button" class="btn btn-warning">K</button>
+    </div>
+    <div class="btn-group me-2" role="group" aria-label="2 letters">
+      <button type="button" class="btn btn-danger">N</button>
+    </div>
+  </div>
+has context menu
+Compose
+<!--Drop Down-->
+<div class="dropdown-toggle">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+    <li><a class="dropdown-item" href="advanced.html">advanced</a></li>
+  </ul>
+</div><br>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+ 
+  <a class="navbar-brand" href="#">A Few cities</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="advanced.html">Advanced</a>
+      </li>
+    </ul>
   </div>
 
+</nav>
+<form>
+  <div class=" form-group" >
+    
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div><br>
+  <div class=" form-group">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city">
+  </div><br>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form><br><br>
+<!--BONUS-->
+<div class="container">
+  <div class="row">
+    <!-- London Card -->
+    <div class="col-sm-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="London.jpg" class="card-img-top" alt="London Image">
+        <div class="card-body">
+          <h5 class="card-title">London</h5>
+          <p class="card-text">London is the capital of England. It is known for its rich history and iconic landmarks such as the Tower of London.</p>
+          <a href="https://en.wikipedia.org/wiki/London" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
 
+    <!-- Amsterdam Card -->
+    <div class="col-sm-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="Amsterdam.jpg" class="card-img-top" alt="Amsterdam Canal Image">
+        <div class="card-body">
+          <h5 class="card-title">Amsterdam</h5>
+          <p class="card-text">Amsterdam is the capital city of the Netherlands, known for its artistic heritage, elaborate canal systems.</p>
+          <a href="https://en.wikipedia.org/wiki/Amsterdam" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agra Card -->
+    <div class="col-sm-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="Agra.jpg" class="card-img-top" alt="Taj Mahal">
+        <div class="card-body">
+          <h5 class="card-title">Agra</h5>
+          <p class="card-text">Agra is a city in northern India known for its historical and architectural heritage. It's famous for the iconic Taj Mahal, a white marble mausoleum.</p>
+          <a href="https://en.wikipedia.org/wiki/Agra" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
 </body>
 </html>
